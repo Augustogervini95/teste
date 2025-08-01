@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&Helvetica+Neue&Segoe+UI&Ubuntu&sans-serif:wght@400;700&display=swap');
+
+/* .body{
+    font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', 'Ubuntu', sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+body {
+     background-image: url("https://m.media-amazon.com/images/M/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg; width=1000&height=150");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 150%;     
+     
+   }
+
+.cabecalho {
+    background-color: #141414;
+    padding: 20px;
+    color: #0f0f0f04;
+}
+
+.backgroundimage {
+    display: flex;
+    margin: 0 auto;      
+    justify-content: center;
+    align-items: center;    
+    position: center;
+}
+
