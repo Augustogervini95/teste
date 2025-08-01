@@ -10,12 +10,20 @@
 
 */
 
+ .container {
+        background-color: #141414;
+    }
+
 body {
-     background-image: url("https://m.media-amazon.com/images/M/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg; width=1000&height=150");
+      /* background-image: url("https://m.media-amazon.com/images/M/MV5BYjA3NDkwNzktNjJkYi00ODNhLWFhYzQtYzk5NjU4MDM0OWZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg; width=1000&height=150"); */
+     background-image: url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: fixed;
-     background-size: 100% 150%;     
+     background-size: 100% 150%;
+     height: 200px; /* Define a fixed height */
+    overflow-y: scroll; /* Enable vertical scrolling */  
+    margin: 0 10% 10% 5%; 
      
    }
 
@@ -23,13 +31,77 @@ body {
     background-color: #141414;
     padding: 20px;
     color: #0f0f0f04;
+    position: top;
+    text-decoration: none;
 }
 
-.backgroundimage {
+.nav__menu{
     display: flex;
-    margin: 0 auto;      
-    justify-content: center;
-    align-items: center;    
-    position: center;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-decoration: none;    
+    }
+
+    .nav__menu:hover {
+        color: #270002;
+        text-decoration: none;
+    }
+
+.banner__intro {
+    background-color: #141414;
+    padding: 50px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.banner__buttons{
+    display: flex;
+    justify-content: center;   
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row
+}
+
+
+.btn__start{
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.btn__start:hover {
+    background-color: #720006;  
+    cursor: pointer;
+}
+
+.btn__like{
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
